@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.open-btn{ background: rgb(130, 10, 10);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+ border-radius: 3px;
+    padding: 7px 10px;
+    position: absolute;
+    left: 1060px;
+    top:  37px;
+    font-family: my font;}
+
+    .open-btn:hover{ background-color: white;
+        border-color: rgb(248, 245, 251);
+        color: black;
+        display: inline-block;
+        animation-duration: 0.3s;
+        animation-fill-mode: backwards;
+        transition: 0.9s;
+       
+    }
+  
+.login{ 
+    text-align: center;
+    color: rgb(9, 0, 0);
+    height: 50px;
+font-family: swipe;}
+
+
+.remember{ color: rgb(255, 255, 255);
+    position: relative;
+     top: 5px;
+    text-align: center;
+}
+.button{ color: rgb(255, 254, 254);
+    position: relative;
+    top: 15px;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: swipe;
+    background-color: rgba(0, 0, 0, 0.849);
+
+}
+.register{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    }
+    .name{
+        border-radius: 5px;
+        margin: 10px;
+    }
+.password{
+    position: relative;
+    top: 9px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.user{
+    color: rgb(255, 255, 255);
+    
+}
+.pwd{color: rgb(253, 253, 253);
+    position: relative;
+    top: 10px;
+}
+.popup{
+    background-color: azure;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.login-form{
+    display: none;
+    z-index: 9;
+    border-radius: 5px;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+    box-shadow: 5px 10px #150202b0;
+    background: rgb(214,31,31);
+    background: rgb(214,31,31);
+    background: linear-gradient(90deg, rgba(214,31,31,0.9417892156862745) 0%, rgba(221,8,8,0.9193802521008403) 50%, rgba(243,10,10,0.5440301120448179) 100%);
+  
+ }
+
+.checkbox{
+   display: none;
+}
+
+#open:checked ~ .login-form{
+    display: block;
+
+}
+
+@font-face{
+    font-family: my font;
+    src: url(Dream\ MMA.ttf);
+}
+
+
